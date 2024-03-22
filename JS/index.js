@@ -47,7 +47,7 @@ getWeather("cairo")
     <p class="pt-2 mRem">${arrOfLocation.name}</p>
     <div class="temp d-flex justify-content-around align-items-center mt-5">
     <p class="fs-temp mb-2 tempp">${arrOfCurrent.temp_c}<sup class="">o</sup>C</p>
-    <img src="https://${arrOfCurrent.condition.icon}"  class="w-25 h-50"/>
+    <img src="https://${arrOfCurrent.condition.icon}"  class="w-100"/>
     </div>
     <p class=" text-primary con">${arrOfCurrent.condition.text}</p>
     <div class="d-flex gap-5 icons static-color text-black ">
@@ -75,7 +75,7 @@ getWeather("cairo")
     </div>
     <div class="body1 ">
     <div class=" d-flex justify-content-center">
-    <img src="https://${arrOfForecast.forecastday[1].day.condition.icon}" class="w-50 d-flex "/>
+    <img src="https://${arrOfForecast.forecastday[1].day.condition.icon}" class="w-75 d-flex "/>
     </div>
     <p class=" text-center fs-3"> ${startDateMaxTemp}<sup>o</sup>C</p>
     <p class="text-center"> ${startDateMimTemp}<sup>o</sup></p>
@@ -89,7 +89,7 @@ getWeather("cairo")
 </div>
 <div class="body1">
 <div class=" d-flex justify-content-center">
-<img src="https://${arrOfForecast.forecastday[2].day.condition.icon}" class="w-50 d-flex "/>
+<img src="https://${arrOfForecast.forecastday[2].day.condition.icon}" class="w-75 d-flex "/>
 </div>
 <p class=" text-center fs-3"> ${startDateMaxTemp2}<sup>o</sup>C</p>
 <p class="text-center"> ${startDateMimTemp2}<sup>o</sup></p>
